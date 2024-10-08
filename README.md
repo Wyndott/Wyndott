@@ -1,10 +1,7 @@
 - 👋 Hi, I’m @Wyndott
-- 👀 I’m interested in 3D modeling, data analyst and data science 
-- 🌱 I’m currently learning MATLAB, Python, C++, SQL, R
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 👀 I’m interested in 3D modeling, data structures, radar signal processing and Algorithms.  
+- 🌱 I’m currently learning MATLAB, Python, C++, Algorithms
+
 
 <!---
 Wyndott/Wyndott is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
