@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Recommendation System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #results {
+      margin-top: 20px;
+    }
+    .movie {
+      padding: 8px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎬 Movie Recommender</h1>
+  <p>Type a movie genre, keyword, or title to get recommendations:</p>
+
+  <input type="text" id="searchInput" placeholder="e.g. sci-fi, romance, action...">
+  <button onclick="getRecommendations()">Search</button>
+
+  <div id="results"></div>
+
+  <script>
+    // Example: Basic algorithm logic (can be replaced with your own)
+    const movieDatabase = {
+      action: ["Mad Max: Fury Road", "John Wick", "Die Hard"],
+      romance: ["Pride & Prejudice", "The Notebook", "La La Land"],
+      sci-fi: ["Inception", "Interstellar", "Blade Runner 2049"],
+      comedy: ["Superbad", "Step Brothers", "The Grand Budapest Hotel"]
+    };
+
+    function getRecommendations() {
+      const input = document.getElementById("searchInput").value.toLowerCase();
+      const resultsDiv = document.getElementById("results");
+      resultsDiv.innerHTML = ""; // Clear previous results
+
+      // Replace this with your custom algorithm if needed
+      let recommendations = movieDatabase[input];
+
+      if (recommendations) {
+        recommendations.forEach(movie => {
+          const movieItem = document.createElement("div");
+          movieItem.className = "movie";
+          movieItem.textContent = "🎥 " + movie;
+          resultsDiv.appendChild(movieItem);
+        });
+      } else {
+        resultsDiv.innerHTML = "<p>No recommendations found. Try another keyword!</p>";
+      }
+    }
+  </script>
+
+</body>
+</html>
