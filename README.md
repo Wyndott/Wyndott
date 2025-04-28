@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Wyndott, CPSC student
-- 👀 I’m interested in 3D modeling, data structures, radar signal processing and Algorithms.  
-- 🌱 I’m currently learning MATLAB, Python, C++, Algorithms
+- 👀 I’m interested in SIEMENS PLC, Data Structures and Algorithms, radar signal processing and Algorithms.  
+- 🌱 I’m currently learning C, and PLC programming.
 
 
 <!---
